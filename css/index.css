@@ -1,0 +1,144 @@
+
+header {width: 100%;}
+
+
+/* GNB Bar */
+
+/* .gnb_wrap {
+   width: 100%;
+   height: 80px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between; align-items: center;
+   padding: 30px;
+} */
+.gnb_wrap {
+   width: 100%;
+   height: 80px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between; align-items: center;
+   padding: 30px;
+}
+
+
+.gnb_menu_wrap{
+   display: flex;
+}
+.gnb_menu_wrap li {
+   display: inline-block;
+   margin: 0 32px;
+   font-family: "NanumSquareEB";
+   height: 80px;
+   font-size: 15px;
+   line-height: 21px;
+   color: rgb(51, 51, 51);
+   height: 80px;
+   padding: 29px 0 ;
+}
+
+.gnb_right {
+   display: flex;
+   align-items: center;
+}
+
+.gnb_language {
+   display: flex;
+   font-family: "NanumSquare";
+   font-size: 12px;
+   line-height: 16.8px;
+   color: rgb(51, 51, 51);
+}
+.eng {
+   opacity: 0.6;
+}
+
+.gnb_right span {
+   margin: 0 10px;
+}
+.gnb_hidden_navi {
+   width: 24px;
+   height: 23px;
+   margin-left: 42px;
+}
+.gnb_hidden_navi a svg:hover {
+   fill: #2cc34d;
+}
+
+
+/* Hero Slide */
+.slide_wrap {
+   width: 100%;
+   padding-top: 40.21%;
+   background-image: url(../img/img_main_slide8.jpg);
+   position: relative;
+}
+
+.slide_indilogo {
+   position: absolute;
+   right: 160px;
+   bottom: 78px;
+}
+
+.slide_inditext_page  {
+   position: absolute;
+   left: 160px;
+   bottom: 112px;
+   
+}
+.slide_inditext p:nth-child(1) {
+   width: 1107px;
+   height: auto;
+   padding-bottom: 16px;
+   
+   font-family: "NanumSquareEB";
+   font-size: 36px;
+   line-height: 46px;
+   letter-spacing: -1px;
+   color: rgb(255, 255, 255);
+}
+.slide_inditext p:nth-child(3) {
+   font-family: "NanumSquare";
+   font-size: 15px;
+   line-height: 24px;
+   color: rgb(255, 255, 255);
+   margin-top: 16px;
+}
+.slide_progressbar{
+   width: 1105px;
+   height: 1px;
+   background-color:rgba(255, 255, 255, 0.5);
+}
+
+
+.slide_count p {
+   font-family: "NanumSquareL"; 
+   color: rgb(255, 255, 255); 
+   font-size: 12px; 
+   margin-top: 35px;
+}
+.slide_count_page {
+   font-family: "NanumSquareEB";
+}
+
+.slide_count button {
+   margin: 0 3px;
+   color: rgb(255, 255, 255); 
+}
+
+.slide_icon button:nth-child(1) {
+   position: absolute; 
+   left: 85px;
+   bottom: 198px;
+   opacity: 0.8;
+}
+.slide_icon button:nth-child(1):hover ,.slide_icon span:nth-child(2):hover {
+   opacity: 1;
+}
+.slide_icon button:nth-child(2) {
+   position: absolute; 
+   right: 85px;
+   bottom: 198px;
+   opacity: 0.8;
+}
+

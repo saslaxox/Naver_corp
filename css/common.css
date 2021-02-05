@@ -1,0 +1,27 @@
+
+body { color:rgb(51,51,51); }
+.cursor-pointer {cursor: pointer;}
+
+/* Layout Style */
+
+/* Text Style */
+@font-face {
+   font-family: "NanumSquare";
+   src: url("../font/NanumSquareR.woff") format("woff"); }
+
+@font-face {
+   font-family: "NanumSquareL";
+   src: url("../font/NanumSquareL.woff") format("woff"); }
+
+@font-face {
+   font-family: "NanumSquareEB";
+   src: url("../font/NanumSquareEB.woff") format("woff"); }
+
+@font-face {
+   font-family: "NanumSquareB";
+   src: url("../font/NanumSquareB.woff") format("woff"); }
+
+
+/* Color Style */
+
+/* Margin & Padding */
