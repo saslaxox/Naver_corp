@@ -21,7 +21,77 @@ body { color:rgb(51,51,51); }
    font-family: "NanumSquareB";
    src: url("../font/NanumSquareB.woff") format("woff"); }
 
+.fb-12 {
+   font-family: "NanumSquareB";
+   font-size: 12px;
+   line-height: 26px;
+}
+
+.fl-12 {
+   font-family: "NanumSquareL";
+   font-size: 12px;
+   line-height: 16px;
+}
+
+.f-15 {
+   font-family: "NanumSquare";
+   font-size: 15px;
+   line-height: 24px;
+}
+.fb-16 {
+   font-family: "NanumSquareB";
+   font-size: 16px;
+   line-height: 22px;
+}
+.feb-36 {
+   font-family: "NanumSquareEB";
+   font-size: 36px;
+   line-height: 50px;
+   letter-spacing: -1.7px;
+}
+
+
+h3 {
+   font-family: "NanumSquareEB", "나눔고딕", "Dotum", "돋움", "AppleSDGothicNeo", "sans-serif";
+   color: rgb(33,33,33);
+   font-size: 14px;
+   line-height: 19px;
+}
+
+.p15-c51 {
+   font-family: "NanumSquareB", "나눔고딕", "Dotum", "돋움", "AppleSDGothicNeo", "sans-serif";
+   color: rgb(51,51,51);
+   font-size: 15px;
+   line-height: 21px;
+}
+
+.p18-c51 {
+   font-family: "NanumSquareEB", "나눔고딕", "Dotum", "돋움", "AppleSDGothicNeo", "sans-serif";
+   color: rgb(51,51,51);
+   font-size: 18px;
+   line-height: 25px;
+}
+
+dt {
+   font-family: "NanumSquareEB", "나눔고딕", "Dotum", "돋움", "AppleSDGothicNeo", sans-serif;
+   font-size: 22px;
+   line-height: 30px;
+   color: rgb(255,255,255);
+   margin-bottom: 2px;
+}
+dd {
+   font-family: "NanumSquare", "나눔고딕", "Dotum", "돋움", "AppleSDGothicNeo", sans-serif;
+   font-size: 15px;
+   line-height: 21px;
+   color: rgb(255,255,255);
+}
 
 /* Color Style */
+
+.c-lightgray {
+   color: rgb(135, 136, 144);
+} 
+
+
 
 /* Margin & Padding */

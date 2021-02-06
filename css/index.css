@@ -4,22 +4,20 @@ header {width: 100%;}
 
 /* GNB Bar */
 
-/* .gnb_wrap {
-   width: 100%;
-   height: 80px;
-   margin: 0 auto;
-   display: flex;
-   justify-content: space-between; align-items: center;
-   padding: 30px;
-} */
 .gnb_wrap {
-   width: 100%;
+   max-width: 1600px;
    height: 80px;
    margin: 0 auto;
    display: flex;
-   justify-content: space-between; align-items: center;
-   padding: 30px;
+   justify-content: space-between; 
+   align-items: center;
 }
+
+@media screen and (max-width: 1600px) 
+{
+   .gnb_wrap {padding: 30px;}
+} 
+
 
 
 .gnb_menu_wrap{
@@ -110,7 +108,6 @@ header {width: 100%;}
    background-color:rgba(255, 255, 255, 0.5);
 }
 
-
 .slide_count p {
    font-family: "NanumSquareL"; 
    color: rgb(255, 255, 255); 
@@ -142,3 +139,254 @@ header {width: 100%;}
    opacity: 0.8;
 }
 
+
+
+/* Main contents */ 
+.main_contents {
+   width: 100%;
+   padding: 0 150px 120px;
+}
+
+
+/* Main contents - Contents summery */
+
+
+.contents_summery_wrap {
+   width: 100%;
+}
+.contents_summery {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 69px;
+}
+.contents_summery_li {
+   width: 27%;
+   height: 177px;
+}
+.contents_summery_li_4{
+   width: 19%;
+   padding-left: 50px;
+}
+
+.contents_summery_li:nth-child(1){
+   padding-right: 50px;
+   border-right: 1px solid rgb(233, 233, 233);
+}
+
+.contents_summery_li:nth-child(2){
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding:0 50px;
+   border-right: 1px solid rgb(233, 233, 233);
+}
+
+.contents_summery_li:nth-child(2) p,
+.contents_summery_li_4 p {
+   margin-bottom: 30px;
+}
+
+.contents_summery_li:nth-child(3) {
+   padding:0 50px;
+   border-right: 1px solid rgb(233, 233, 233);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.contents_summery_li:nth-child(3) .contants_picebox_wrap {
+   margin: 23px 0 38px;
+}
+
+.contents_summery_li_4{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding:0 50px;
+}
+
+.icon_arrow svg {
+   width: 16px;
+   height: 16px;
+   vertical-align: middle;
+   margin-left: 14px;
+}
+
+
+.contents_summery_1:hover strong{
+   text-decoration: underline;
+}
+
+.contents_summery_1{
+   width: 100%;
+   margin: 31px 0 30px;
+}
+.news_title {
+   display: inline-block;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   overflow: hidden;
+   width: 100%;
+}
+.news_text {
+   display: inline-block;
+   text-overflow: ellipsis;
+   white-space: normal;
+   overflow: hidden;
+   width: 100%;
+   height: 48px;
+   text-align: left; 
+   word-wrap: break-word; 
+   display: -webkit-box; 
+   -webkit-line-clamp: 2; 
+   -webkit-box-orient: vertical;
+   margin-top: 10px;
+}
+
+
+.contents_pricebox {
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+   padding-bottom: 7px;
+   border-bottom: 1px solid rgb(51, 51, 51);
+}
+
+.stock_up{
+   display: flex;
+   justify-content: end;
+   align-items: center;
+}
+/* 왜 아이콘 이미지가 안뜨는걸까요 미해결중 */
+.contents_pricebox .up {
+   width: 10px;
+   height: 6px;
+   background-image: url(../img/sprite.png);
+   background-position: -318px -26px;
+   margin-right: 10px;
+}
+
+.date {
+   margin-top: 12px;
+   text-align: right;
+}
+
+.contents_summery_linkin a:hover {
+   text-decoration: underline;
+}
+
+.contents_summery_linkin a:hover span svg {
+   fill: rgb(255, 255, 255);
+   border-radius: 50%;
+   background-color: #1ec545;
+}
+
+
+
+@media screen and (max-width: 1600px) 
+{
+   .contents_summery_wrap .contents_summery_li:nth-child(1) {padding-right: 20px;}
+   .contents_summery_wrap .contents_summery_li:nth-child(2),
+   .contents_summery_wrap .contents_summery_li:nth-child(3) {padding:0 20px;}
+   .contents_summery_wrap .contents_summery_li_4 {padding:0 20px;}
+} 
+
+
+/* Contents service */
+
+.contents_service {
+   margin-top: 98px;
+}
+
+.contents_service_list {
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+}
+
+.contents_service_list_box {
+   display: inline-block;
+   width: 33.3333%;
+   height : 0;
+   padding-top : 25%;
+   position: relative;
+   overflow: hidden;
+} 
+
+.contents_service ul li a {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.contents_service ul li a span, 
+.contents_service ul li a dl {
+   position: absolute;
+   top: 150%;
+   transition: all .35s;
+}
+.contents_service ul li a:hover span, 
+.contents_service ul li a:hover dl {
+   position: absolute;
+   top: 50%;
+}
+
+
+.contents_service ul li a:hover {
+   background-color: rgba(58, 62, 80, 0.5);
+}
+
+
+.contents_service_list_box a {
+   display: block;
+   width: auto;
+   height: 100%;
+}
+
+.service_dl {
+   position: absolute;
+   bottom: 30px;
+   padding: 50px 0 0 30px;
+}
+
+.contents_service_list_box span {
+   width: 23px;
+   height: 23px;
+   background-image: url("../img/survice_icon.png");
+   position: absolute;
+   left: 30px;
+   bottom: 120px;
+}
+
+
+
+
+.contents_service_list li:nth-child(1) {
+   background-image: url(../img/main_content_1.png);
+}
+.contents_service_list li:nth-child(2) {
+   background-image: url(../img/main_content_2.png);
+}
+.contents_service_list li:nth-child(3) {
+   background-image: url(../img/main_content_3.png);
+}
+.contents_service_list li:nth-child(4) {
+   background-image: url(../img/main_content_4.png);
+}
+.contents_service_list li:nth-child(5) {
+   background-image: url(../img/main_content_5.png);
+}
+.contents_service_list li:nth-child(6) {
+   background-image: url(../img/main_content_6.png);
+}
+.contents_service_list li:nth-child(7) {
+   background-image: url(../img/main_content_7.png);
+}
+.contents_service_list li:nth-child(8) {
+   background-image: url(../img/main_content_8.png);
+}
+.contents_service_list li:nth-child(9) {
+   background-image: url(../img/main_content_9.png);
+}

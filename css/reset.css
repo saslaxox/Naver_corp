@@ -4,6 +4,18 @@ a {text-decoration: none;}
 a:hover {color:rgb(51,51,51);}
 a:visited {color:rgb(51,51,51);}
 
-div, ul, li { background-size: cover; background-repeat: no-repeat; }
+div, ul, li {
+   background-size: cover;
+   background-repeat: no-repeat;
+}
 
-button { border: 0; background: none; cursor: pointer;}
+ol, ul ,li, dl {
+   list-style:none;
+   list-style-type:none;
+}
+
+button {
+   border: 0;
+   background: none;
+   cursor: pointer;
+}
