@@ -148,33 +148,36 @@ header {width: 100%;}
 }
 
 
-/* Main contents - Contents summery */
+/* Main contents - Contents summary */
 
 
-.contents_summery_wrap {
+.contents_summary_wrap {
    width: 100%;
 }
-.contents_summery {
+.contents_summary {
    width: 100%;
    display: flex;
    justify-content: space-between;
    margin-top: 69px;
 }
-.contents_summery_li {
+.contents_summary_li {
    width: 27%;
    height: 177px;
 }
-.contents_summery_li_4{
+.contents_summary_li_4{
    width: 19%;
    padding-left: 50px;
 }
 
-.contents_summery_li:nth-child(1){
+.contents_summary_li:nth-child(1){
    padding-right: 50px;
    border-right: 1px solid rgb(233, 233, 233);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 }
 
-.contents_summery_li:nth-child(2){
+.contents_summary_li:nth-child(2){
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -182,23 +185,23 @@ header {width: 100%;}
    border-right: 1px solid rgb(233, 233, 233);
 }
 
-.contents_summery_li:nth-child(2) p,
-.contents_summery_li_4 p {
+.contents_summary_li:nth-child(2) p,
+.contents_summary_li_4 p {
    margin-bottom: 30px;
 }
 
-.contents_summery_li:nth-child(3) {
+.contents_summary_li:nth-child(3) {
    padding:0 50px;
    border-right: 1px solid rgb(233, 233, 233);
    display: flex;
    flex-direction: column;
    justify-content: space-between;
 }
-.contents_summery_li:nth-child(3) .contants_picebox_wrap {
+.contents_summary_li:nth-child(3) .contants_picebox_wrap {
    margin: 23px 0 38px;
 }
 
-.contents_summery_li_4{
+.contents_summary_li_4{
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -213,13 +216,12 @@ header {width: 100%;}
 }
 
 
-.contents_summery_1:hover strong{
+.contents_summary_1:hover strong{
    text-decoration: underline;
 }
 
-.contents_summery_1{
+.contents_summary_1{
    width: 100%;
-   margin: 31px 0 30px;
 }
 .news_title {
    display: inline-block;
@@ -240,7 +242,7 @@ header {width: 100%;}
    display: -webkit-box; 
    -webkit-line-clamp: 2; 
    -webkit-box-orient: vertical;
-   margin-top: 10px;
+   margin-top: 5px;
 }
 
 
@@ -257,7 +259,7 @@ header {width: 100%;}
    justify-content: end;
    align-items: center;
 }
-/* 왜 아이콘 이미지가 안뜨는걸까요 미해결중 */
+
 .contents_pricebox .up {
    width: 10px;
    height: 6px;
@@ -271,11 +273,11 @@ header {width: 100%;}
    text-align: right;
 }
 
-.contents_summery_linkin a:hover {
+.contents_summary_linkin a:hover {
    text-decoration: underline;
 }
 
-.contents_summery_linkin a:hover span svg {
+.contents_summary_linkin a:hover span svg {
    fill: rgb(255, 255, 255);
    border-radius: 50%;
    background-color: #1ec545;
@@ -285,10 +287,11 @@ header {width: 100%;}
 
 @media screen and (max-width: 1600px) 
 {
-   .contents_summery_wrap .contents_summery_li:nth-child(1) {padding-right: 20px;}
-   .contents_summery_wrap .contents_summery_li:nth-child(2),
-   .contents_summery_wrap .contents_summery_li:nth-child(3) {padding:0 20px;}
-   .contents_summery_wrap .contents_summery_li_4 {padding:0 20px;}
+   .contents_summary_wrap .contents_summary_li:nth-child(1) {padding-right: 20px;}
+   .contents_summary_wrap .contents_summary_li:nth-child(2),
+   .contents_summary_wrap .contents_summary_li:nth-child(3) {padding:0 20px;}
+   .contents_summary_wrap .contents_summary_li_4 {
+      padding:0 0 0 20px;}
 } 
 
 
