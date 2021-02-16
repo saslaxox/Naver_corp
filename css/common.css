@@ -1,6 +1,6 @@
 
 body { color:rgb(51,51,51); }
-.cursor-pointer {cursor: pointer;}
+.cursor-pointer {cursor: pointer; font-family: "NanumSquare";}
 
 /* Layout Style */
 
@@ -50,6 +50,13 @@ body { color:rgb(51,51,51); }
    letter-spacing: -1.7px;
 }
 
+
+h2 {
+   font-family: "NanumSquareB", "나눔고딕", "Dotum", "돋움", "AppleSDGothicNeo", "sans-serif";
+   color: rgb(33,33,33);
+   font-size: 32px;
+   line-height: 44px;
+}
 
 h3 {
    font-family: "NanumSquareEB", "나눔고딕", "Dotum", "돋움", "AppleSDGothicNeo", "sans-serif";
