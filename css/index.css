@@ -157,7 +157,6 @@ header {width: 100%;}
 .contents_summary {
    width: 100%;
    display: flex;
-   justify-content: space-between;
    margin-top: 69px;
 }
 .contents_summary_li {
@@ -339,6 +338,7 @@ header {width: 100%;}
 
 .contents_service ul li a:hover {
    background-color: rgba(58, 62, 80, 0.5);
+   transition: all .35s;
 }
 
 
