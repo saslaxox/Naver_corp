@@ -21,6 +21,12 @@ body { color:rgb(51,51,51); }
    font-family: "NanumSquareB";
    src: url("../font/NanumSquareB.woff") format("woff"); }
 
+
+body {
+   font-family: "NanumSquare", 'NanumBarunGothic', "Helvetica", "Arial", sans-serif; 
+}
+
+
 .fb-12 {
    font-family: "NanumSquareB";
    font-size: 12px;
